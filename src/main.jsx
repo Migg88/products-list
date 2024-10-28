@@ -8,12 +8,14 @@ import ProductThemeProvider from './themes/ThemeProvider.jsx';
 import './index.scss';
 import App from './App.jsx';
 
+const env = import.meta.env;
+
 
 createRoot(document.getElementById('root')).render(
 	<StrictMode>
 		<Auth0Provider
-			domain="dev-lny054pdz5b35njs.us.auth0.com"
-			clientId="62N1ClbE2OS02mgaibc2FL58bIgIfvwR"
+			domain={env.VITE_AUTH0_DOMAIN}
+			clientId={env.VITE_AUTH0_CLIENT_ID}
 			authorizationParams={{
 				redirect_uri: window.location.origin
 			}}
