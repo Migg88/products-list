@@ -1,8 +1,19 @@
-# React + Vite
+# List Products Challenge By Miguel guizar
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+This project is intended to show my skills using React and Redux. Also apply Auth, protected routes,api fetching and dinamic Forms.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Run the project
+
+Node version: 20.7.0
+
+React version: 18.3.1
+
+Vite version: 5.4.9
+
+Steps to run the project:
+
+- Set the enviroment variables
+- Run npm install
+- Run npm run dev
