@@ -16,4 +16,4 @@ Steps to run the project:
 
 - Set the enviroment variables
 - Run npm install
-- Run npm run dev
+- Run npm run dev (it is necessary to use port 5175, 5173, 8000 or 8080)
